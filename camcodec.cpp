@@ -225,7 +225,7 @@ BOOL CodecInst::QueryAbout()
 	return TRUE;
 }
 
-static BOOL CALLBACK AboutDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
+static INT_PTR CALLBACK AboutDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	if (uMsg == WM_COMMAND)
 	{
@@ -268,7 +268,7 @@ typedef struct _UDACCEL
 }
 UDACCEL, FAR *LPUDACCEL;
 
-static BOOL CALLBACK ConfigureDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
+static INT_PTR CALLBACK ConfigureDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {	
 	if (uMsg == WM_INITDIALOG)
 	{			
