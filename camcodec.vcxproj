@@ -126,9 +126,10 @@
       <AdditionalDependencies>winmm.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <ModuleDefinitionFile>.\camcodec.def</ModuleDefinitionFile>
-      <ProgramDatabaseFile>.\Release/camcodec.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(SolutionDir)\output\camcodec.pdb</ProgramDatabaseFile>
       <ImportLibrary>.\Release/camcodec.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -171,8 +172,9 @@
       <AdditionalDependencies>winmm.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <ModuleDefinitionFile>.\camcodec.def</ModuleDefinitionFile>
-      <ProgramDatabaseFile>.\Release/camcodec.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(SolutionDir)\output\camcodec.pdb</ProgramDatabaseFile>
       <ImportLibrary>.\Release/camcodec.lib</ImportLibrary>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -215,7 +217,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <ModuleDefinitionFile>.\camcodec.def</ModuleDefinitionFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>.\Debug/camcodec.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(SolutionDir)\output\camcodec.pdb</ProgramDatabaseFile>
       <ImportLibrary>.\Debug/camcodec.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
@@ -260,7 +262,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <ModuleDefinitionFile>.\camcodec.def</ModuleDefinitionFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>.\Debug/camcodec.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(SolutionDir)\output\camcodec.pdb</ProgramDatabaseFile>
       <ImportLibrary>.\Debug/camcodec.lib</ImportLibrary>
     </Link>
     <Bscmake>

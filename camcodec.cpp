@@ -271,7 +271,7 @@ UDACCEL, FAR *LPUDACCEL;
 static INT_PTR CALLBACK ConfigureDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {	
 	if (uMsg == WM_INITDIALOG)
-	{			
+	{
 		int l_algorithm = GetPrivateProfileInt("GENERAL", "algorithm", 0, "camcodec100.ini"); 
 		int l_gzip_level = GetPrivateProfileInt("GENERAL", "gzip_level", 6, "camcodec100.ini"); 
 		
