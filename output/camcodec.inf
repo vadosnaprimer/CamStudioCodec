@@ -38,7 +38,7 @@ HKLM,SYSTEM\CurrentControlSet\Control\MediaResources\icm\VIDC.CSCD,FriendlyName,
 
 HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\camcodec
 HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\camcodec,DisplayName,,"CamStudio Lossless Codec"
-HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\camcodec,UninstallString,,"rundll.exe setupx.dll,InstallHinfSection DefaultUninstall 132 %12%\camcodec.inf"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\camcodec,UninstallString,,"rundll32.exe setupapi.dll,InstallHinfSection DefaultUninstall 132 %12%\camcodec.inf"
 
 
 [DestinationDirs]
